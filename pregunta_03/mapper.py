@@ -7,7 +7,7 @@ for line in sys.stdin:
     line = line.strip()
     columnas = line.split(',')
     
-        if len(columnas) >= 2:
+    if len(columnas) >= 2:
         key = columnas[1]
         value = line
         print(f'{key}\t{value}')
